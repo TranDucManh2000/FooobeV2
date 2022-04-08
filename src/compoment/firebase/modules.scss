@@ -1,0 +1,44 @@
+.Registration {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    form {
+      max-width: 500px;
+      border: 1px solid;
+      border-color: rgb(7, 117, 243);
+      border-radius: 5px;
+      text-align: center;
+      padding: 30px;
+      .Dangky {
+        font-weight: 500;
+        color: rgb(11, 34, 236);
+      }
+  
+      div {
+        margin: 30px 0;
+      }
+      input {
+        width: 300px;
+        font-size: 14px;
+        height: 30px;
+        &::placeholder {
+          color: rgb(70, 51, 46);
+          padding-left: 5px;
+        }
+      }
+  
+      button {
+        color: rgb(0, 0, 0);
+        background-color: rgb(55, 11, 252);
+        padding: 10px;
+        margin: 20px;
+        border: none;
+        border-radius: 3px;
+      }
+      .dangnhap {
+        text-decoration: none;
+        border-bottom: 1px solid;
+        color: rgb(73, 0, 243);
+      }
+    }
+  }

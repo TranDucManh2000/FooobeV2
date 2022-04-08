@@ -1,0 +1,51 @@
+.filterbys{
+    width: 100%;
+    height: 360px;
+    // background-color: #51ff00;
+    h3{
+        height: 45px;
+        width: 100%;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        span{
+            color: #22232b7e;
+        }
+    }
+    .fiby{
+        margin-top: 20px;
+        width: 100%;
+        height: 35px;
+        // background-color: rgb(38, 0, 255);
+        border-bottom: 1px solid #1b1b1b5e;
+        .ant-dropdown-link{
+            font-size: 16px;
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .DownOutlined{
+                font-size: 14px;
+            }
+        }
+    }
+    .nameprice{
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-between;
+        font-size: 16px;
+    }
+    .limitprice{
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        padding: 5px;
+    }
+    .ant-slider-handle{
+        border: solid 2px black;
+    }
+    .ant-slider-track{
+        background-color: black;
+    }
+        
+}

@@ -1,0 +1,13 @@
+.home{
+    font-family: 'Abel';
+    height: auto;
+    width: 95%;
+    margin-left: 2.5%;
+}
+@media (max-width: 800px) {
+    .home{
+        font-family: 'Abel';
+        height: auto;
+        width: 100%;
+    }
+}

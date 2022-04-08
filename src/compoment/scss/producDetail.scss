@@ -1,0 +1,68 @@
+.detail{
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+    // background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    .boximg{
+        width: 45%;
+        height: 500px;
+        // background-color: burlywood;
+        &:hover{
+            cursor: pointer;
+        }
+        .imgbig{
+            width: 100%;
+            height: 350px;
+            background-color: red;
+            background-image: url('https://img2.thuthuatphanmem.vn/uploads/2018/12/25/anh-gai-xinh-hoa-hau_012903484.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .imgmin{
+            width: 100%;
+            height: 150px;
+            // background-color: blueviolet;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .imgmini{
+                width: 30%;
+                height: 90%;
+                background-color: aqua;
+                background-image: url('https://1.bp.blogspot.com/-FbJksAdXtaY/XBz4BiZjSkI/AAAAAAAACyQ/M9QjthftogYyPCJLqC3Si8PV88YgnkyYwCEwYBhgL/s1600/gai-xinh-4k-20.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+    .boxtext{
+        width: 50%;
+        height: 500px;
+        // background-color: rgb(131, 82, 19);
+        h1{
+            color: red;
+            font-size: 22px;
+        }
+        h2{
+            margin-top: 20px;
+        }
+        p{
+            max-height: 67px;
+        }
+        button{
+            margin-top: 20px;
+            min-width: 200px;
+            height: 50px;
+            font-size: 20px;
+            background-color: rgb(247, 232, 216);
+            border: none;
+            border-radius: 5px;
+            &:hover{
+                cursor: pointer;
+             }
+        }
+    }
+}
